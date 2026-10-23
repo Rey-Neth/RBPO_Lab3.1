@@ -2,7 +2,7 @@ spring:
   config:
     import: optional:file:.env[.properties]
   application:
-    name: survey-constructor
+    name: "1БКС24064"
   datasource:
     url: ${DB_URL:jdbc:postgresql://localhost:5432/survey_lab3}
     username: ${DB_USER:survey_app}
